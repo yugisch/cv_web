@@ -216,6 +216,7 @@ h3.clr4{
   border: 1px solid #A09F9F;
   font-size: 1em;
   color: #A09F9F;
+  -webkit-appearance: none;
 }
 .send input[type="submit"] {
   width: 14%;
@@ -226,6 +227,7 @@ h3.clr4{
   color: #fff;
   border: none;
   outline: none;
+  -webkit-appearance: none;
 }
 .send input[type="submit"]:hover {
   background: #6ecadc;
@@ -553,13 +555,17 @@ address span {
   display: flex;
 }
 
-.column {
+.column{
   flex: 15%;
-  padding: 5px;
-  width: 90%
+  margin: 5px;
+}
+
+img{
+  border-radius: 8px;
 }
 
 .column_content{
   flex:100%;
   padding: 1em;
 }
+
